@@ -1,0 +1,25 @@
+﻿  DS_Project.cpp
+C:\Users\DELL 5511\Desktop\vs\DS_Project\DS_Project.cpp(17,11): warning C4101: 'd': unreferenced local variable
+  graph.cpp
+C:\Users\DELL 5511\Desktop\vs\DS_Project\graph.cpp(340,17): warning C4129: '{': unrecognized character escape sequence
+C:\Users\DELL 5511\Desktop\vs\DS_Project\graph.cpp(347,17): warning C4129: ' ': unrecognized character escape sequence
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244: 'initializing': conversion from 'float' to '_Ty2', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:             _Ty2=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:         ]
+  (compiling source file 'graph.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\DELL 5511\Desktop\vs\DS_Project\graph.cpp(244,25):
+  	see reference to function template instantiation 'std::pair<std::string,int>::pair<std::string&,float&,0>(_Other1,_Other2) noexcept(false)' being compiled
+          with
+          [
+              _Other1=std::string &,
+              _Other2=float &
+          ]
+  		C:\Users\DELL 5511\Desktop\vs\DS_Project\graph.cpp(244,24):
+  		see the first reference to 'std::pair<std::string,int>::pair' in 'graph::add_road'
+  
+  Generating Code...
+  DS_Project.vcxproj -> C:\Users\DELL 5511\Desktop\vs\DS_Project\x64\Debug\DS_Project.exe
